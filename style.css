@@ -261,6 +261,11 @@ details[open] summary .danach:after {
 	grid-column-gap: 2%;
     grid-template-columns:56% 4% 32%;/*!*/
 }
+.list-container p img{
+	width:100%;
+	text-align:center;
+	height:100%;
+}
 /*!*//*!*//*!*/
 .davor:before{
 	font-size:18pt;
