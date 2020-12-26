@@ -1,17 +1,29 @@
 /*-------------------------------------------------
 ----------------------General----------------------
 -------------------------------------------------*/
+@import "https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
 html{
 	scrollbar-color: #154d63 #f2f2f2;
 	:-webkit-scrollbar-color: #154d63 #f2f2f2;
 	scrollbar-width: thin;
-	::-webkit-scrollbar-width: thin;  
+	::-webkit-scrollbar-width: thin;
 }
 body{
     margin:0;
     background:#EDEDED;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /*color:#333333;*/
+}
+.button{
+	  background-color: DodgerBlue; /* Blue background */
+	  border: none; /* Remove borders */
+	  color: white; /* White text */
+	  padding: 40px 20px; /* Some padding */
+	  font-size: 16px; /* Set a font size */
+	  cursor: pointer; /* Mouse pointer on hover */
+	}
+}
+
 }
 *::selection { background:#0e344f;color:#ffffff}
 .wrapper{
@@ -88,7 +100,7 @@ nav ul{
     padding: 8px 12px;
     transition-duration: 0.4s;
     letter-spacing:-1pt;
-    
+
 }
 .nav_icon a:hover{
 	color:#c5f7e0;
@@ -129,7 +141,7 @@ nav li a:hover{
 }
 /*Siegel Suche*/
 /*--------------------------------------------------*/
-input{  
+input{
     width: 60%;
     margin:auto;
     font-size: 16pt;
@@ -176,8 +188,8 @@ input:focus{
     overflow:scroll;
     overflow-x: hidden;
     wider:100%;
-	scrollbar-width: thin; 
-	::-webkit-scrollbar-width: thin;    
+	scrollbar-width: thin;
+	::-webkit-scrollbar-width: thin;
 	scrollbar-color: #154d63 #f2f2f2;
 	::-webkit-scrollbar-color: #154d63 #f2f2f2;
 	border-radius:4px;
@@ -189,7 +201,7 @@ input:focus{
     width:auto;
 	margin-right:0px;
 	margin-top:24px;
-	margin-bottom:24px;	
+	margin-bottom:24px;
 	max-height:400px;
 	padding:36px;
 	border:none;
