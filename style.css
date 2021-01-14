@@ -624,6 +624,146 @@ footer a{
 /*Handy Optimization*/
 /*--------------------------------------------------*/
 @media only screen and (max-width: 400px){
+body{
+	width:100%;
+}
+.navigation{
+    display:grid;
+    grid-column-gap: 0%;
+    grid-template-columns:100%;
+    grid-template-areas:"icon";
+    padding:10px 0px;
+}
+.nav_navigation{
+	display:none;
+}
+.disclaimer{
+	box-sizing:border-box;
+	padding:10px;
+}
+.disclaimer p{
+	font-size:10pt;
+}
+
+header{
+	padding-left: 2px;
+	padding-right: 2px;
+}
+header h1{
+	font-size: 34pt;
+}
+.wasmachste p{
+	text-align:left;
+}
+.wasmachste a{
+	font-size: 13pt;
+	display:block;
+	width:100%;
+	margin: 4px 0px;
+	border-bottom:none;
+}
 
 
+.wrapper-nav{
+	box-sizing:border-box;
+	padding: 0px 8px;
+}
+input{
+    width: 80%;
+    font-size:14pt;
+}
+.collection-item{
+    min-height:60px;
+}
+
+#names li summary{
+	font-size: 12pt;
+	color:#474747;
+	list-style: none;
+	list-style-type: none;
+	border:none;
+	outline: none;
+}
+.collection-item details summary{
+	display:grid;
+	grid-column-gap: 4%;
+    grid-template-columns:64% 6% 16%;/*!*/
+    box-sizing:border-box;
+    padding:10px;
+}
+.aligner{
+	height:auto;
+	line-height: 34px;
+	padding-left:0px;
+}
+.collection-item img{
+	width:auto;
+    height: 36px;
+    padding-top:1px;
+}
+.collection-item details p{
+	grid-area:text;
+    font-size: 12pt;
+    line-height:20pt;
+}
+.danach{
+	font-size:12pt;
+}
+
+.kurzbeschreibung .image{
+	display:none;
+}
+.kurzbeschreibung{
+	display:grid;
+	grid-column-gap: 0%;
+	grid-template-columns:100%;
+	margin-bottom:20px;
+	box-sizing:border-box;
+	padding:8px;
+}
+.kurzbeschreibung.anders{
+	display:grid;
+	grid-column-gap: 0%;
+	grid-template-columns:100%;
+	margin-bottom:20px;
+	box-sizing:border-box;
+	padding:8px;
+}
+.wrapper-beschreibung{
+    max-width: 1024px;
+    margin:auto;
+    margin-top:30px;
+}
+
+#faq{
+	box-sizing:border-box;
+	padding:8px;
+}
+.faq-header{
+	font-size:18pt;
+	color:#0e344f;
+}
+#faq summary{
+	font-size:14pt;
+}
+#faq details{
+	font-size:12pt;
+	margin-bottom:30px;
+	padding-bottom:10px;
+}
+#faq details p{
+	font-size:13pt;
+	line-height:15pt;
+}
+
+
+.footer-container{
+	display:grid;
+	grid-column-gap:1%;
+	grid-template-columns:100%;
+}
+.foot-image{
+	text-align:left;
+	margin-bottom:10px;
+}
 }
