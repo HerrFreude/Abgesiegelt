@@ -710,8 +710,18 @@ input{
 	font-size:12pt;
 }
 
+
 .kurzbeschreibung .image{
 	display:none;
+}
+.kurzbeschreibung h1{
+	font-size:20pt;
+	text-align:center;
+}
+.kurzbeschreibung p{
+	font-size:12pt;
+	line-height:18pt;
+	word-wrap: break-word;
 }
 .kurzbeschreibung{
 	display:grid;
@@ -734,6 +744,8 @@ input{
     margin:auto;
     margin-top:30px;
 }
+
+
 
 #faq{
 	box-sizing:border-box;
