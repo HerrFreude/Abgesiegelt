@@ -265,6 +265,8 @@ details[open] summary .danach:after {
 	width:100%;
 	text-align:center;
 	height:100%;
+	opacity: 1;
+	filter: grayscale(var(--value, 0%));
 }
 /*!*//*!*//*!*/
 .davor:before{
